@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(232, 231, 231);
+    
+}
+.im.g{
+margin-top: -35px;
+}
+
+
+section{
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    padding: 0 10%;
+}
+header{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 30px;
+   background-color: rgb(102, 210, 243);
+   box-shadow: 0 0 15px #57aeec;
+   padding: 50px 5%;
+}
+.title{
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+}
+img{
+    width: 100px;
+   
+
+}
+.nav_bar ul{
+    font-family: Arial, sans-serif;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.nav_bar ul li{
+    font-family: Arial, sans-serif;
+    list-style: none;
+    margin-left: 25px;
+}
+.nav_bar li a{
+    font-family: Arial, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(253, 253, 252);
+    font-weight: bold;
+    position: relative;
+}
+
+.nav_bar li a::after{
+    font-family: Arial, sans-serif;
+    position: absolute;
+    left: 0;
+    bottom:  -6px;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #bebff6;
+    transition: 0.4s ease;
+}
+.nav_bar li a:hover::after{
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+.contenu{
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.contenu .contenu-box{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px ;
+    padding: 5px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.contenu .text{
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.text img, .text h3{
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+.title-1 h1{
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.title-1{
+    font-family: Arial, sans-serif;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+
+/*les formations*/
+.nos_formation{
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 10px 8%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #555A54;
+}
+hr{
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+.lice{
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.List li{
+    font-family: Arial, sans-serif;
+   margin: 10px; 
+   color: #fff;
+}
+.nos_formation_master{
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 10px 8%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #186109;
+}
+.nos_formation_format{
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 10px 8%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #37054e;
+}
+.nos_formation_cert{
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 10px 8%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #adee35;
+    margin-bottom: 30px;
+}
+
+footer{
+    font-family: Arial, sans-serif;
+    background-color: #59a2f4;
+    justify-content: space-between;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 30px;
+   
+}
+
+
+  

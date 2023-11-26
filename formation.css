@@ -1,0 +1,48 @@
+.nos_formation{
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 10px 8%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #555A54;
+}
+hr{
+    margin: 40px;
+}
+.lice{
+    color: #fff;
+    text-align: center;
+}
+.List li{
+   margin: 10px; 
+   color: #fff;
+}
+.nos_formation_master{
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 10px 8%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #186109;
+}
+.nos_formation_format{
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 10px 8%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #37054e;
+}
+.nos_formation_cert{
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding: 10px 8%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #adee35;
+    margin-bottom: 30px;
+}
